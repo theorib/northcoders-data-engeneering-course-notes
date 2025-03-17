@@ -58,4 +58,12 @@
 - An OS abstracts away a lot of common tasks necessary to run most software allowing them to interact with the hardware and letting programmers focus on the problems they want to solve, not on lots of smaller hurdles along the way
 - unix-based
 
+## VS Code setup for `code` command
+- open the command pallet with cmd+shift+p and look for `shell`
+- select install `code` command in PATH
+- restart the terminal
+- save changes on focus change
+
 ## Git
+### this commit will...
+    we write git commit messages imperativelly as if they were preceded by "this commit will..."
