@@ -1,1 +1,1 @@
-# Course notes for the Northcoders Data Engineering March 2025 cohort
+# Theo Ribeiro personal course notes for the Northcoders Data Engineering March 2025 cohort
