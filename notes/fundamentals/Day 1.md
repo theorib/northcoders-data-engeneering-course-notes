@@ -65,5 +65,15 @@
 - save changes on focus change
 
 ## Git
-### this commit will...
-    we write git commit messages imperativelly as if they were preceded by "this commit will..."
+### Guidelines
+    - we write git commit messages imperativelly as if they were preceded by "this commit will..."
+    - if we are about to write the word `and` to our commit, it should probably be done in multiple commits
+    
+### Look at
+ - git revert
+ - git reset
+
+Remove files in the stagint area
+ ```shell
+ git restore --staged filename
+ ```
