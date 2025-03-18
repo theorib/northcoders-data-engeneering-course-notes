@@ -71,9 +71,62 @@
     
 ### Look at
  - git revert
+    -   Git rever brings us back in history to a previous commit by making a new commit. It is a much safer way to go back and fix mistakes than git reset
+
  - git reset
+    - Git reset reverts the history to a specified commit and remove all commits that came after the specified commit, leaving changes in the staging area.
+    - It is dangerous to modify the git history so use this with lots of care
 
 Remove files in the stagint area
  ```shell
  git restore --staged filename
  ```
+
+shows what remote is connected to our local repo or sets it up if additional arguments are passed
+ ```shell
+ git remote -v
+ ```
+ 
+Clone a github repo
+```shell
+git clone github://url
+```
+
+Push changes
+```shell
+git push origin main
+```
+
+Downloading changes to repository
+```shell
+git pull origin main
+```
+
+## Pair programming
+
+### Navigator
+- Focus
+    The navigator's role is to review the code in real time ensuring it's accuracy and quality
+- Task
+    The navigator acts as a sounding board, asking questions, offering suggestions, and identifying potential problems or areas for improvement
+- Communication
+    The navigator should activelly participate in the conversation, explaining their reasoning and providing feedback to the driver
+
+### Driver
+- Focus
+    The Driver's primary resposibility is to type the code and implement the solution.
+- Task:
+    Tge driver takes the lead in translating tthe problem into code, following the navigator's suggestions and guidance
+- Communication:
+    The driver needs to explain their thought process and the code they are writing to the navigator, fostering a collaborative environment
+
+### Shared responsabilities
+- Problem solving
+- Code Quality
+- Knowledge sharing
+- Communication
+
+Within a team the models inside a software developer's head are also part of the software development process
+
+## Command Line Commands
+- [100 Useful Command-Line Utilities](https://oliverelliott.org/post/commandlinereference/#Introduction)
