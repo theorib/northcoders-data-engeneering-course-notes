@@ -44,7 +44,7 @@ Add to your `.gitignore` file
 ##
 Creating SSH Key Pairs
 ```bash
-ssh-keygen -t rsa -b 2048 -f my-key.pem
+ssh-keygen -t rsa -b 2048 -f ~/.ssh/my-key
 ```
 
 ## Data vs Resource
@@ -66,3 +66,10 @@ ssh-keygen -t rsa -b 2048 -f my-key.pem
 - Scripts entered as user data are run as the **root user**, so do not use the sudo command
 - any files you create will be owned by the **root user**; if you need a non-root user to have file access, you should modify the **permissions** accordingly
 Sources: [user_data](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/user-data.html#user-data-shell-scripts), [cloud-init User-data formats](https://cloudinit.readthedocs.io/en/latest/explanation/format.html#mime-multi-part-archive)
+
+
+## Terraform Variable files
+[.tfvars files](https://developer.hashicorp.com/terraform/language/values/variables#variable-definitions-tfvars-files)
+
+## Cloud Init Resources
+[cloudinit_config (Data Source)](https://registry.terraform.io/providers/hashicorp/cloudinit/latest/docs/data-sources/config)
