@@ -15,12 +15,12 @@ aws configure list-profiles
 
 switching current profile
 ```bash
-export AWS_PROFILE=profile_name
+export AWS_PROFILE=new_profile_name
 ```
 
 run a command as a specific profile
 ```bash
-aws s3 ls --profile profile_name
+aws s3 ls --profile new_profile_name
 ```
 
 check aws current profile
