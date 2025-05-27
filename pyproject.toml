@@ -1,0 +1,20 @@
+[project]
+name = "northcoders-de-course-notes"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "ipykernel>=6.29.5",
+    "requests>=2.32.3",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.3.5",
+    "pytest-testdox>=3.1.0",
+]
+
+[tool.pytest.ini_options]
+addopts = "-vvv -rP --testdox"
+pythonpath = "."
