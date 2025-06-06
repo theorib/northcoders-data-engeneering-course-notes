@@ -16,6 +16,7 @@
 ## Decorators
 - Check that decorator **returns a function**
 ```python
+
 from types import FunctionType
 
 @pytest.mark.it('check that do_twice returns a function')
